@@ -7,6 +7,7 @@
 #
 
 
+Pod::Spec.new do |s|
     s.name             = 'CEBComponentsLibrary'
     s.version          = '1.0.3'
     s.summary          = 'A Library for reusable UI components for iOS Ceb Pac Platforms.'
@@ -45,3 +46,4 @@
 
 
 
+end

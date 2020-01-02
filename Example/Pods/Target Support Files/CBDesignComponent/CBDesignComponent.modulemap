@@ -1,0 +1,6 @@
+framework module CBDesignComponent {
+  umbrella header "CBDesignComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

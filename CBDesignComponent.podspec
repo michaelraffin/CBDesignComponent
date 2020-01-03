@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     
     s.description      = "This library as a repository for UI Components to be reused by Ceb Pac Platforms."
     
-    s.homepage         = 'https://github.com/michaelraffinpaculba@gmail.com/CBDesignComponent'
+    s.homepage         = 'https://github.com/michaelraffin/CBDesignComponent'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     

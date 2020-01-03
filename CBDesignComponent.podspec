@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CBDesignComponent'
-    s.version          = '0.0.1'
+    s.version          = '1.0.0'
     s.summary          = 'A Library for reusable UI components for iOS Ceb Pac Platforms.'
     
     # This description is used to generate tags and improve search results.

@@ -23,8 +23,9 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/michaelraffinpaculba@gmail.com/CBDesignComponent'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'michaelraffinpaculba@gmail.com' => 'michaelraffinpaculba@gmail.com' }
-    s.source           = { :git => 'https://github.com/michaelraffinpaculba@gmail.com/CBDesignComponent.git', :tag => s.version.to_s }
+    
+    s.author           = { 'michaelraffin' => 'michaelraffinpaculba@gmail.com' }
+    s.source           = { :git => 'https://github.com/michaelraffin/CBDesignComponent.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '13.0'

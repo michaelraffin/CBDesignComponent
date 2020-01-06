@@ -144,7 +144,7 @@
 		E0FA7F4791A788CA4B0D2CB9C72750A5 /* CBDesignComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A328DB307184C17D7F0034265C1F8401 /* CBDesignComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1216911C249E3FC383CE5EE1E1066F3 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D7E91D45E71CD2E3B9D4BEF64827F /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E2A3FF8FBAC2E21C91E8C5EE009E0FCD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = B59C1A8E80E60BB1EED308EBB9A94AFF /* QCKDSL.m */; };
-		E530FDB623C2C6C700D4E830 /* CBCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530FDB523C2C6C700D4E830 /* CBCalendar.swift */; };
+		E530FDBA23C2DB3C00D4E830 /* CPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530FDB923C2DB3C00D4E830 /* CPHeader.swift */; };
 		E594306BF52C899BCE23A4BA56CD0DD0 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED23789B3D43F8AF1085A5D6EC1A157 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5ABA6FD23BDE82E00B9C6DF /* CPExpandingMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ABA6FC23BDE82E00B9C6DF /* CPExpandingMenuList.swift */; };
 		E6C11C009FC4EEB972E5175E3D2EDCA5 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52959F253E1847B5D5C6DA5EBC0C3753 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -401,7 +401,7 @@
 		E1EAB4880BEED7C984CAD06E314FD12A /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		E228B30C559DD8A9481FDBEEF753591D /* Pods-CBDesignComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBDesignComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		E298086948955290D0711C45CDFD3DB6 /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
-		E530FDB523C2C6C700D4E830 /* CBCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCalendar.swift; sourceTree = "<group>"; };
+		E530FDB923C2DB3C00D4E830 /* CPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPHeader.swift; sourceTree = "<group>"; };
 		E5ABA6FC23BDE82E00B9C6DF /* CPExpandingMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPExpandingMenuList.swift; sourceTree = "<group>"; };
 		E82F7B9CC21DFE73B70B7F6C578E0A74 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		E8DCAFA011B3C352658CE58B93770B69 /* Pods-CBDesignComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBDesignComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -847,7 +847,7 @@
 			isa = PBXGroup;
 			children = (
 				E5ABA6FC23BDE82E00B9C6DF /* CPExpandingMenuList.swift */,
-				E530FDB523C2C6C700D4E830 /* CBCalendar.swift */,
+				E530FDB923C2DB3C00D4E830 /* CPHeader.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1193,9 +1193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E530FDBA23C2DB3C00D4E830 /* CPHeader.swift in Sources */,
 				DFAB92ED90A754210BD8F6FDA29AD7A3 /* CBDesignComponent-dummy.m in Sources */,
 				958638CA79B93CBD37ACA40347794C63 /* ReplaceMe.swift in Sources */,
-				E530FDB623C2C6C700D4E830 /* CBCalendar.swift in Sources */,
 				E5ABA6FD23BDE82E00B9C6DF /* CPExpandingMenuList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

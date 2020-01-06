@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
     s.dependency 'AccordionSwift', '~> 2.0.0'
     s.dependency 'SnapKit', '~> 5.0.0'
     s.dependency 'SwiftyJSON'
-    s.dependency 'JTAppleCalendar'
+    s.dependency 'JTAppleCalendar' , '~> 7.1.8'
 
 
 

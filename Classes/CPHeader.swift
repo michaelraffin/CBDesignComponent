@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import SwiftyJSON
 
-class CBHeader: BaseView {
+class CBHeader: UIView {
 //    let data: String!
     let headerType: String
     

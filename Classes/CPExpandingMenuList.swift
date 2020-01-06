@@ -95,9 +95,6 @@ open class CPExpandingMenuList: UIView {
     typealias ParentCellModel = Parent<CountryCellModel, TerminalCellModel>
     typealias ParentCellConfig = CellViewConfig<ParentCellModel, ParentTableViewCell>
     typealias ChildCellConfig = CellViewConfig<TerminalCellModel, ChildTableViewCell>
-    typealias ParentviewSample = CellViewConfig<TerminalCellModel>
-    
-    
     
     var dataSourceProvider: DataSourceProvider<DataSource<ParentCellModel>, ParentCellConfig, ChildCellConfig>?
     var dataSourceProvider2: DataSourceProvider<DataSource<ParentCellModel>, ParentCellConfig, ChildCellConfig>?

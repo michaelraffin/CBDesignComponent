@@ -54,7 +54,7 @@ class CBHeader: UIView {
         //self.button = jsonObj["button"]?.arrayValue.map{$0.stringValue}
         //self.buttonImage = jsonObj["buttonImage"]?.arrayValue.map{$0.stringValue}
         
-        let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: ViewSizeUtil.getHeaderHeight())
+        let frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 104.98)
         super.init(frame: frame)
         
         makeRoundedBottomEdge(ofHeight: 24)
@@ -86,7 +86,7 @@ class CBHeader: UIView {
         //adjust top offset to availability of device notch
         let titleLabelTopOffset: CGFloat
         let leftBarButtonTopOffset: CGFloat
-        let hasNotch = UIDevice.current.hasNotch
+        let hasNotch = true
         
         if headerType != "main" && !hasNotch {
             titleLabelTopOffset = 17.27
@@ -134,7 +134,7 @@ class CBHeader: UIView {
         case "pop":
             let backButton = UIButton()
             backButton.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
-            backButton.setImageAsArrowLeft()
+//            backButton.setImageAsArrowLeft()
             
             self.addSubview(backButton)
             
@@ -149,7 +149,7 @@ class CBHeader: UIView {
         case "dismiss":
             let dismissButton = UIButton()
             dismissButton.frame = CGRect(x: 0, y: 0, width: 24, height: 24)
-            dismissButton.setImageAsDismissX()
+//            dismissButton.setImageAsDismissX()
             
             self.addSubview(dismissButton)
             
@@ -227,7 +227,7 @@ class CBHeader: UIView {
 //        }
         
         snp.makeConstraints { (make) in
-            make.height.equalTo(ViewSizeUtil.getHeaderHeight())
+            make.height.equalTo(104.98)
         }
 //
 //        if(headerType != "main"){

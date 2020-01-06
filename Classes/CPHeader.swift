@@ -1,11 +1,11 @@
 //
-//  CPHeader.swift
-//  CBDesignComponent
+//  CBHeader.swift
+//  Cebu Pacific
 //
-//  Created by Nicole Jillian Day on 06/01/2020.
+//  Created by Randell Joseph Ramirez on 16/11/2019.
+//  Copyright © 2019 Randell Joseph Ramirez. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import SwiftyJSON
 
@@ -70,7 +70,6 @@ class CBHeader: UIView {
 //        var btns = [UIButton]()
         
         // add title label
-        print("reference id  header --->>" , significance.reference)
         let titleLabel = UILabel()
         titleLabel.textColor = UIColor(red: 0, green: 0.376, blue: 0.655, alpha: 1)
         titleLabel.font = UIFont(name: "FSAlbert-ExtraBold", size: 18)

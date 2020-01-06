@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CBDesignComponent'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'A Library for reusable UI components for iOS Ceb Pac Platforms.'
     
     # This description is used to generate tags and improve search results.
@@ -44,6 +44,7 @@ Pod::Spec.new do |s|
     s.dependency 'AccordionSwift', '~> 2.0.0'
     s.dependency 'SnapKit', '~> 5.0.0'
     s.dependency 'SwiftyJSON'
+    s.dependency 'JTAppleCalendar'
 
 
 
